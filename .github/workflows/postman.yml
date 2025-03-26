@@ -14,4 +14,4 @@ jobs:
         run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
       - name: Run API tests
         run: |
-          postman collection run "40021533-f0a5b4ff-3fdf-4b69-af17-cc418875ee0c" -e "40021533-31c3f988-e530-4ffd-9722-e5e53c4d7ea3" -d "C:\Users\Shiva\Desktop\API testing U\BookAPI.csv"
+          postman collection run "40021533-f0a5b4ff-3fdf-4b69-af17-cc418875ee0c" -e "40021533-31c3f988-e530-4ffd-9722-e5e53c4d7ea3"
